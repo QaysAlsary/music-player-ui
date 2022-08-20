@@ -21,14 +21,14 @@ class _SongPageState extends State<SongPage> {
           padding: const EdgeInsets.symmetric(horizontal: 25.0),
           child: Column(
             children: [
-              SizedBox(
+              const SizedBox(
                 height: 25,
 
               ),
               //back button and menu
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
+                children: const [
                   SizedBox(
                     height: 60,
                     width: 60,
@@ -73,13 +73,13 @@ class _SongPageState extends State<SongPage> {
                          Text('fly me to the moon',
                          style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold,
                          color: Colors.grey[700]),),
-                         SizedBox(height:6),
-                         Text('qays',
-                           style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold), ),
+                         const SizedBox(height:6),
+                         const Text('qays',
+                           style: const TextStyle(fontSize: 22,fontWeight: FontWeight.bold), ),
                        ],
 
                      ),
-                     Icon(Icons.favorite,
+                     const Icon(Icons.favorite,
                      color: Colors.red,
                        size: 32,
                      )
@@ -89,11 +89,11 @@ class _SongPageState extends State<SongPage> {
                ],
              ),
              ),
-              SizedBox(height: 40,),
+              const SizedBox(height: 40,),
               //start time  shuffle button  repeat button  end time
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                children: [
+                children: const [
                   Text('00'),
                   Icon(Icons.shuffle),
                   Icon(Icons.repeat),
@@ -102,7 +102,7 @@ class _SongPageState extends State<SongPage> {
 
                 ],
               ),
-              SizedBox(height: 40,),
+              const SizedBox(height: 40,),
 
               //liner progres par
               NeuBox(
@@ -113,7 +113,7 @@ class _SongPageState extends State<SongPage> {
                   backgroundColor: Colors.transparent,
                 ),
               ),
-              SizedBox(
+              const SizedBox(
                 height: 40,
 
               ),
@@ -122,7 +122,7 @@ class _SongPageState extends State<SongPage> {
               SizedBox(
                 height: 80,
                 child: Row(
-                  children: [
+                  children: const [
                     Expanded(
                       child: NeuBox(
                         child: Icon(Icons.skip_previous,
@@ -132,7 +132,7 @@ class _SongPageState extends State<SongPage> {
                     Expanded(
                       flex: 2,
                       child: Padding(
-                        padding: const EdgeInsets.symmetric(horizontal: 20.0),
+                        padding: EdgeInsets.symmetric(horizontal: 20.0),
                         child: NeuBox(
                           child: Icon(Icons.play_arrow,size: 32,),
                         ),
