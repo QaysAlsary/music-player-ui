@@ -6,7 +6,7 @@ class NeuBox extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.all(8),
+      padding: const EdgeInsets.all(8),
       child: Center(
         child: child,
       ),
@@ -18,9 +18,9 @@ class NeuBox extends StatelessWidget {
           BoxShadow(
             color: Colors.grey.shade500,
             blurRadius: 15,
-            offset: Offset(5,5),
+            offset: const Offset(5,5),
           ),
-          BoxShadow(
+          const BoxShadow(
             color: Colors.white,
             blurRadius: 15,
             offset: Offset(-5,-5),

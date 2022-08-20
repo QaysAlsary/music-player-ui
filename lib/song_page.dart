@@ -69,7 +69,7 @@ class _SongPageState extends State<SongPage> {
                      Column(
                        crossAxisAlignment: CrossAxisAlignment.start,
                        children: [
-                         Text('fly me to the moon',
+                         Text('Fly me to the moon',
                          style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold,
                          color: Colors.grey[700]),),
                          const SizedBox(height:6),
