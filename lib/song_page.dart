@@ -1,4 +1,3 @@
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart'  ;
 import 'package:percent_indicator/linear_percent_indicator.dart';
 
@@ -74,8 +73,8 @@ class _SongPageState extends State<SongPage> {
                          style: TextStyle(fontSize: 18,fontWeight: FontWeight.bold,
                          color: Colors.grey[700]),),
                          const SizedBox(height:6),
-                         const Text('qays',
-                           style: const TextStyle(fontSize: 22,fontWeight: FontWeight.bold), ),
+                         const Text('Qays',
+                           style: TextStyle(fontSize: 22,fontWeight: FontWeight.bold), ),
                        ],
 
                      ),
@@ -104,7 +103,7 @@ class _SongPageState extends State<SongPage> {
               ),
               const SizedBox(height: 40,),
 
-              //liner progres par
+              //liner progress par
               NeuBox(
                 child: LinearPercentIndicator(
                   lineHeight: 10,
@@ -118,7 +117,7 @@ class _SongPageState extends State<SongPage> {
 
               ),
 
-              //previous song  puse play  skip to the next song
+              //previous song  pause play  skip to the next song
               SizedBox(
                 height: 80,
                 child: Row(
